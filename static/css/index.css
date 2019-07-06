@@ -1,0 +1,284 @@
+html,
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Helvetica, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", SimSun, sans- -serif;
+  scroll-behavior: smooth;
+}
+
+.jumbotron {
+  margin-bottom: 0;
+}
+
+.bgc-white {
+  background: white!important;
+}
+
+.navbar {
+  border: none;
+}
+
+.toptry {
+  width: 88px;
+  background: rgba(59, 153, 252, 1);
+}
+
+.toptry a {
+  color: #ffffff!important;
+}
+
+.logo {
+  margin-left: 10px;
+  display: inline-block;
+  width: 100px;
+  background: url(../img/logo.svg) no-repeat center center;
+  background-size: 100% auto;
+}
+
+.main-bgimg {
+  background: linear-gradient(90deg, rgba(0, 0, 70, 0) 0%, rgba(7, 7, 48, 0.41) 32%, rgba(16, 16, 16, 1) 100%);
+  background: url(../img/homebanner@2x.jpg) no-repeat center center;
+  background-size: cover;
+  color: #ffffff;
+  height: 410px;
+}
+
+.main-bgimg h2 {
+  max-width: 513px;
+  /* height: 108px; */
+  font-size: 36px;
+  font-family: PingFangSC-Medium;
+  font-weight: 500;
+  color: rgba(255, 255, 255, 1);
+  line-height: 54px;
+}
+
+.main-bgimg .subtxt {
+  width: 307px;
+  height: 24px;
+  font-size: 16px;
+  font-family: PingFangSC-Regular;
+  font-weight: 400;
+  color: rgba(255, 255, 255, 1);
+  line-height: 24px;
+}
+
+.main-bgimg .trybtn {
+  width: 140px;
+  height: 44px;
+  background: rgba(59, 153, 252, 1);
+  border-radius: 24px;
+  outline: none!important;
+  border: none!important;
+}
+
+.main-bgimg .count {
+  width: 135px;
+  height: 18px;
+  font-size: 12px;
+  font-family: PingFangSC-Regular;
+  font-weight: 400;
+  color: rgba(255, 255, 255, 1);
+  line-height: 18px;
+}
+
+.main-server .title {
+  height: 48px;
+  font-size: 32px;
+  font-family: PingFangSC-Regular;
+  font-weight: 400;
+  color: rgba(40, 51, 75, 1);
+  line-height: 48px;
+  text-align: center;
+  margin-bottom: 32px;
+}
+
+.main-server p {
+  text-align: center;
+}
+
+.main-server img {
+  max-height: 160px;
+  max-width: 160px;
+  width: 100%;
+}
+
+.main-server {
+  background-color: #fff;
+}
+
+.main-server .imgdes::before {
+  content: " ";
+  position: absolute;
+  width: 65px;
+  height: 65px;
+  left: calc(50% - 32.5px);
+  top: 26px;
+  /* margin-left: -50%; */
+}
+
+.main-server .imgdes::after {
+  content: "";
+  color: #ffffff;
+  position: absolute;
+  text-align: center;
+  width: 100%;
+  height: 30px;
+  left: 0;
+  bottom: 24px;
+  font-family: PingFangSC-Regular;
+  font-size: 20px;
+}
+
+.main-server .imgdes:nth-last-child(4)::before {
+  background: url(../img/养发护发.svg) no-repeat center center;
+  background-size: cover;
+}
+
+.main-server .imgdes:nth-last-child(3)::before {
+  background: url(../img/美甲美睫.svg) no-repeat center center;
+  background-size: cover;
+}
+
+.main-server .imgdes:nth-last-child(2)::before {
+  background: url(../img/美容美体.svg) no-repeat center center;
+  background-size: cover;
+}
+
+.main-server .imgdes:last-child::before {
+  background: url(../img/养身保健.svg) no-repeat center center;
+  background-size: cover;
+}
+
+.main-server .imgdes:nth-last-child(4):after {
+  content: "美发养发";
+}
+
+.main-server .imgdes:nth-last-child(3)::after {
+  content: "美甲养睫";
+}
+
+.main-server .imgdes:nth-last-child(2)::after {
+  content: "美容养体";
+}
+
+.main-server .imgdes:last-child::after {
+  content: "养生保健";
+}
+
+.main-com {
+  background: rgba(245, 249, 255, 1);
+  position: relative;
+  text-align: center;
+  padding-top: 48px;
+}
+
+.main-com.sum {
+  background-image: url(../img/飘带.svg);
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center calc(100% + 119px);
+}
+
+/* .main-com.sum::after {
+  content: ' ';
+  position: absolute;
+  width: 100%;
+  height: 390px;
+  left: 0;
+  bottom: -119px;
+  background: url(../img/飘带.svg) no-repeat;
+  background-size: cover;
+  z-index: 3;
+} */
+
+.main-com p {
+  margin-bottom: 0;
+}
+
+.main-com .title {
+  height: 48px;
+  font-size: 32px;
+  font-family: PingFangSC-Regular;
+  font-weight: 400;
+  color: rgba(33, 139, 252, 1);
+  line-height: 48px;
+  text-align: center;
+  margin-bottom: 8px;
+}
+
+.main-com .tip {
+  font-size: 14px;
+  font-family: PingFangSC-Regular;
+  font-weight: 400;
+  color: rgba(40, 51, 75, 1);
+  text-align: center;
+  line-height: 20px;
+}
+
+.main-com img {
+  display: block;
+  width: 960px;
+  margin: 32px auto 0;
+  z-index: 5;
+}
+
+/* .main-com .img1,
+.main-com .img2,
+.main-com .img3,
+.main-com .img4 {
+  margin-top: 32px;
+  width: 100%;
+  height: 552px;
+  position: relative;
+  z-index: 5;
+}
+
+.main-com .img1 {
+  background: url(../img/开单记账@2x.png) no-repeat center center;
+  background-size: 100%;
+}
+
+.main-com .img2 {
+  background: url(../img/会员管理@2x.png) no-repeat 50% 100%;
+  background-size: 100%;
+}
+
+.main-com .img3 {
+  background: url(../img/营收统计@2x.png) no-repeat 50% 100%;
+  background-size: 100%;
+}
+
+.main-com .img4 {
+  background: url(../img/微信通知@2x.png) no-repeat 50% 100%;
+  background-size: 100%;
+} */
+
+.main-footer {
+  height: 196px;
+  background: rgba(23, 33, 45, 1);
+  box-shadow: 0px 1px 0px 0px rgba(255, 255, 255, 0.1);
+}
+
+@media screen and (max-width: 728px) {
+  /* .main-com {
+    height: 300px;
+  }
+  .main-com .img1,
+  .main-com .img2,
+  .main-com .img3,
+  .main-com .img4 {
+    background-size: 100% 0;
+    background-size: 100%;
+    background-position-y: 0;
+  } */
+  .h-nav {
+    width: 100%;
+    padding: 0;
+  }
+  .main-com img {
+    width: 100%;
+    left: 0;
+  }
+  .main-com.sum {
+    background-size: 100% 100%;
+  }
+}

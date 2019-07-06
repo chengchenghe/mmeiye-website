@@ -1,0 +1,24 @@
+{
+  "name": "mmeiye-website",
+  "version": "1.0.0",
+  "description": "微美记官方网站",
+  "main": "index.js",
+  "scripts": {
+    "dev": "browser-sync -w ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chengchenghe/mmeiye-website.git"
+  },
+  "keywords": [],
+  "author": "hechengcheng",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chengchenghe/mmeiye-website/issues"
+  },
+  "homepage": "https://github.com/chengchenghe/mmeiye-website#readme",
+  "devDependencies": {
+    "browser-sync": "^2.26.7"
+  },
+  "dependencies": {}
+}
