@@ -252,6 +252,90 @@ body {
   background-size: 100%;
 } */
 
+#jg {
+  padding-bottom: 48px;
+}
+
+#jg .title {
+  font-size: 32px;
+  font-family: PingFangSC-Regular;
+  font-weight: 400;
+  color: rgba(40, 51, 75, 1);
+  line-height: 48px;
+}
+
+#jg .item {
+  margin: 0 auto;
+  max-width: 280px;
+  max-height: 200px;
+  width: 100%;
+  border-radius: 4px;
+  padding: 24px 0;
+  text-align: center;
+  border-radius: 4px;
+  margin-top: 32px;
+}
+
+#jg .item.item1 {
+  background: rgba(35, 173, 62, 1);
+}
+
+#jg .item.item2 {
+  background: rgba(49, 127, 255, 1);
+}
+
+#jg .item.item3 {
+  background: rgba(199, 40, 146, 1);
+}
+
+#jg .item p,
+#jg .item a {
+  color: #fff;
+}
+
+#jg .item a {
+  width: 123px;
+  height: 32px;
+  background: rgba(255, 255, 255, 1);
+  border-radius: 16px;
+  font-size: 14px;
+  font-family: PingFangSC-Regular;
+  font-weight: 400;
+  color: rgba(33, 139, 252, 1);
+  line-height: 20px;
+  border: none!important;
+  outline: none!important;
+}
+
+#jg .item .type {
+  height: 26px;
+  font-size: 18px;
+  font-family: PingFangSC-Regular;
+  font-weight: 400;
+  color: rgba(255, 255, 255, 1);
+  line-height: 26px;
+  margin-bottom: 16px;
+}
+
+#jg .item .price {
+  height: 54px;
+  font-size: 36px;
+  font-family: PingFangSC-Medium;
+  font-weight: 500;
+  color: rgba(255, 255, 255, 1);
+  line-height: 54px;
+  margin-bottom: 24px;
+}
+
+#jg .item .price::after {
+  content: '元/年';
+  font-size: 14px;
+  font-family: PingFangSC-Regular;
+  font-weight: 400;
+  color: rgba(255, 255, 255, 1);
+  line-height: 20px;
+}
+
 .main-footer {
   height: 196px;
   background: rgba(23, 33, 45, 1);
