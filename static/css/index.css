@@ -430,6 +430,11 @@ body {
   background-size: cover;
 }
 
+.main-footer .gzh .ewm img {
+  width: 100px;
+  height: 100px;
+}
+
 .main-footer .gzh .tip {
   width: 91px;
   height: 18px;
@@ -447,6 +452,9 @@ body {
     width: 100%;
     padding: 0;
   }
+  .logo {
+    margin-left: 15px!important;
+  }
   .nav>li>a {
     padding: 0;
   }
@@ -460,7 +468,7 @@ body {
   .main-footer {
     text-align: center;
   }
-  .main-footer .footer-logo{
+  .main-footer .footer-logo {
     margin: 24px auto;
   }
 }
