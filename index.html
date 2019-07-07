@@ -50,7 +50,7 @@
   <div class="jumbotron main-bgimg">
     <div class="container">
       <h2>美业收银，让你的经营有理有据 便宜、好用</h2>
-      <p class="subtxt">电脑版 599 元/年，小程序版 299</p>
+      <p class="subtxt">电脑版 599 元/年，小程序版 299 元/年</p>
       <p><a type="button" href="#sy" class="btn btn-primary trybtn" btn-lg btn-block">免费试用</a></p>
       <small class="count">1，503 家美业正在使用</small>
     </div>
@@ -135,10 +135,20 @@
       <div class="col-xs-12 col-sm-6">
         <img src="/static/img/人物@2x.jpg" alt="">
       </div>
-      <!-- <div class="col-sm-6 hidden-xs"> -->
       <div class="col-xs-12 col-sm-6">
         <div class="form">
-
+          <p class="title">1，503 家美业的选择</p>
+          <form role="form" id="form">
+            <div class="form-group">
+              <input type="text" name="name" id="name" class="form-control" placeholder="您的姓名">
+              <div class="help-block">请输入您的姓名</div>
+            </div>
+            <div class="form-group">
+              <input type="text" name="phone" id="phone" maxlength="11" class="form-control" placeholder="手机号码">
+              <div class="help-block"></div>
+            </div>
+            <a id="dosubmit" class="btn btn-primary" href="JavaScript:void(0)" role="button">免费试用</a>
+          </form>
         </div>
         <div class="submit-success">
           <div class="success-icon"></div>
@@ -167,10 +177,10 @@
       <!-- 公众号图片 -->
       <div class="col-xs-12 col-sm-2">
         <div class="gzh">
-            <div class="ewm">
-              <img src="/static/img/二维码@2x.png" alt="">
-            </div>
-            <p class="tip">关注微信公众号</p>
+          <div class="ewm">
+            <img src="/static/img/二维码@2x.png" alt="">
+          </div>
+          <p class="tip">关注微信公众号</p>
         </div>
       </div>
     </div>
