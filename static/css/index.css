@@ -16,17 +16,36 @@ body {
   border: none;
 }
 
+.phone::before {
+  content: ' ';
+  background: url(../img/telephone.svg) no-repeat;
+  background-size: cover;
+  height: 16px;
+  width: 16px;
+  position: absolute;
+  left: -2px;
+}
+
+.navbar-right {
+  margin-right: 0!important;
+}
+
 .toptry {
   width: 88px;
-  background: rgba(59, 153, 252, 1);
+  background: rgba(59, 153, 252, 1)!important;
+  color: #fff;
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
 }
 
 .toptry a {
   color: #ffffff!important;
+  background: rgba(59, 153, 252, 1)!important;
 }
 
 .logo {
-  margin-left: 10px;
+  margin-left: 0px!important;
   display: inline-block;
   width: 100px;
   background: url(../img/logo.svg) no-repeat center center;
@@ -64,6 +83,7 @@ body {
 .main-bgimg .trybtn {
   width: 140px;
   height: 44px;
+  line-height: 32px;
   background: rgba(59, 153, 252, 1);
   border-radius: 24px;
   outline: none!important;
@@ -178,18 +198,6 @@ body {
   background-position: center calc(100% + 119px);
 }
 
-/* .main-com.sum::after {
-  content: ' ';
-  position: absolute;
-  width: 100%;
-  height: 390px;
-  left: 0;
-  bottom: -119px;
-  background: url(../img/飘带.svg) no-repeat;
-  background-size: cover;
-  z-index: 3;
-} */
-
 .main-com p {
   margin-bottom: 0;
 }
@@ -221,36 +229,56 @@ body {
   z-index: 5;
 }
 
-/* .main-com .img1,
-.main-com .img2,
-.main-com .img3,
-.main-com .img4 {
-  margin-top: 32px;
+.lxwm {
+  padding: 0;
+}
+
+.lxwm img {
   width: 100%;
-  height: 552px;
-  position: relative;
-  z-index: 5;
+  margin: 0;
 }
 
-.main-com .img1 {
-  background: url(../img/开单记账@2x.png) no-repeat center center;
-  background-size: 100%;
+.lxwm .form {
+  /* width: 361px;
+  height: 276px; */
 }
 
-.main-com .img2 {
-  background: url(../img/会员管理@2x.png) no-repeat 50% 100%;
-  background-size: 100%;
+.submit-success {
+  /* display: none; */
+  padding-bottom: 57px;
 }
 
-.main-com .img3 {
-  background: url(../img/营收统计@2x.png) no-repeat 50% 100%;
-  background-size: 100%;
+.success-icon {
+  background: url(../img/提交成功.svg) no-repeat center center;
+  background-size: cover;
+  height: 100px;
+  width: 100px;
+  text-align: center;
+  margin: 0 auto;
+  margin-bottom: 16px;
+  margin-top: 57px;
 }
 
-.main-com .img4 {
-  background: url(../img/微信通知@2x.png) no-repeat 50% 100%;
-  background-size: 100%;
-} */
+.success-icon .tip {
+  text-align: center;
+  font-size: 18px;
+  font-family: PingFangSC-Regular;
+  font-weight: 400;
+  color: rgba(40, 51, 75, 1);
+  line-height: 26px;
+}
+
+.mobileuse {
+  padding: 0;
+  margin: 0;
+  border: none;
+}
+
+.toptry {
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+}
 
 #jg {
   padding-bottom: 48px;
@@ -343,19 +371,11 @@ body {
 }
 
 @media screen and (max-width: 728px) {
-  /* .main-com {
-    height: 300px;
-  }
-  .main-com .img1,
-  .main-com .img2,
-  .main-com .img3,
-  .main-com .img4 {
-    background-size: 100% 0;
-    background-size: 100%;
-    background-position-y: 0;
-  } */
   .h-nav {
     width: 100%;
+    padding: 0;
+  }
+  .nav>li>a {
     padding: 0;
   }
   .main-com img {
@@ -364,5 +384,11 @@ body {
   }
   .main-com.sum {
     background-size: 100% 100%;
+  }
+}
+
+@media (min-width:1200px) {
+  .container {
+    width: 990px;
   }
 }

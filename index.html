@@ -18,22 +18,29 @@
     <nav class="navbar navbar-default navbar-fixed-top bgc-white" role="navigation">
       <div class="container">
         <div class="navbar-header">
-          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#example-navbar-collapse">
+          <!-- <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#example-navbar-collapse">
             <span class="sr-only">切换导航</span>
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
-          </button>
+          </button> -->
+          <ul class="nav navbar-toggle navbar-right mobileuse">
+            <li class="toptry">
+                <a href="#sy">免费试用</a>
+            </li>
+          </ul>
           <span class="navbar-brand logo"></span>
-          <!-- <a class="navbar-brand logo" href="#"></a> -->
+
         </div>
         <div class="collapse navbar-collapse" id="example-navbar-collapse">
           <ul class="nav navbar-nav navbar-right">
-            <li><a href="#">181-0657-0322</a></li>
+            <li><a href="#" class="phone">&nbsp;181-0657-0322</a></li>
             <li><a href="#jz">概况</a></li>
             <li><a href="#jg">价格</a></li>
-            <li><a href="#">登录</a></li>
-            <li class="toptry"><a href="#">免费试用</a></li>
+            <li><a href="https://www.mmeiye.top/" target="_blank">登录</a></li>
+            <li class="toptry">
+                <a href="#sy">免费试用</a>
+            </li>
           </ul>
         </div>
       </div>
@@ -44,7 +51,7 @@
     <div class="container">
       <h2>美业收银，让你的经营有理有据 便宜、好用</h2>
       <p class="subtxt">电脑版 599 元/年，小程序版 299</p>
-      <p><button type="button" name="" id="" class="btn btn-primary trybtn" btn-lg btn-block">免费试用</button></p>
+      <p><a type="button" href="#sy" class="btn btn-primary trybtn" btn-lg btn-block">免费试用</a></p>
       <small class="count">1，503 家美业正在使用</small>
     </div>
   </div>
@@ -95,28 +102,49 @@
     <img src="/static/img/微信通知@2x.png" alt="">
   </div>
   <!-- 价格 -->
-  <div class="container-fluid main-com" id="jg">
-    <p class="title">产品价格</p>
-    <p class="tip">联系我们：181-0657-0322</p>
-    <div class="col-xs-12 col-sm-4">
-      <div class="item item1">
-        <p class="type">电脑版</p>
-        <p class="price">599</p>
-        <a class="btn btn-info" href="#" role="button">免费试用</a>
+  <div class="jumbotron main-com">
+    <div class="container" id="jg">
+      <p class="title">产品价格</p>
+      <p class="tip">联系我们：181-0657-0322</p>
+      <div class="col-xs-12 col-sm-4">
+        <div class="item item1">
+          <p class="type">电脑版</p>
+          <p class="price">599</p>
+          <a class="btn btn-info" href="#sy" role="button">免费试用</a>
+        </div>
+      </div>
+      <div class="col-xs-12 col-sm-4">
+        <div class="item item2">
+          <p class="type">小程序版</p>
+          <p class="price">299</p>
+          <a class="btn btn-info" href="#sy" role="button">免费试用</a>
+        </div>
+      </div>
+      <div class="col-xs-12 col-sm-4">
+        <div class="item item3">
+          <p class="type">组合版</p>
+          <p class="price">899</p>
+          <a class="btn btn-info" href="#sy" role="button">免费试用</a>
+        </div>
       </div>
     </div>
-    <div class="col-xs-12 col-sm-4">
-      <div class="item item2">
-        <p class="type">小程序版</p>
-        <p class="price">299</p>
-        <a class="btn btn-info" href="#" role="button">免费试用</a>
+  </div>
+  <!-- 联系 -->
+  <div class="jumbotron main-com bgc-white lxwm" id="sy">
+    <div class="container">
+      <div class="col-xs-12 col-sm-6">
+        <img src="/static/img/人物@2x.jpg" alt="">
       </div>
-    </div>
-    <div class="col-xs-12 col-sm-4">
-      <div class="item item3">
-        <p class="type">组合版</p>
-        <p class="price">899</p>
-        <a class="btn btn-info" href="#" role="button">免费试用</a>
+      <!-- <div class="col-sm-6 hidden-xs"> -->
+      <div class="col-xs-12 col-sm-6">
+        <div class="form">
+
+        </div>
+        <div class="submit-success">
+          <div class="success-icon"></div>
+          <p class="tip">提交成功!</p>
+          <p class="tip">服务人员会在稍后与您联系！</p>
+        </div>
       </div>
     </div>
   </div>
