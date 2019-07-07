@@ -7,7 +7,7 @@
       $phone: $('#phone'),
       $submit: $('#dosubmit'),
     }
-    var valid = function () {
+    var validName = function () {
       if (!$dom.$name.val()) {
         $dom.$name.parent().addClass('has-error')
         $dom.$name.next().show()
@@ -16,6 +16,9 @@
         $dom.$name.parent().removeClass('has-error')
         $dom.$name.next().hide()
       }
+      return true
+    }
+    var validPhone = function () {
       if (!$dom.$phone.val()) {
         $dom.$phone.parent().addClass('has-error')
         $dom.$phone.next().text('请输入手机号码').show()
@@ -34,7 +37,15 @@
       }
       return true
     }
-
+    var valid = function () {
+      return validName() && validPhone()
+    }
+    $dom.$name.on('input', function () {
+      validName()
+    })
+    $dom.$phone.on('blur', function () {
+      validPhone()
+    })
     // event
     $dom.$submit.on('click', function () {
       if (valid()) {
