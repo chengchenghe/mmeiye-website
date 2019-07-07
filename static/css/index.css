@@ -365,9 +365,81 @@ body {
 }
 
 .main-footer {
-  height: 196px;
+  min-height: 196px;
   background: rgba(23, 33, 45, 1);
   box-shadow: 0px 1px 0px 0px rgba(255, 255, 255, 0.1);
+}
+
+.main-footer .tip {
+  height: 20px;
+  font-size: 14px;
+  font-family: PingFangSC-Regular;
+  font-weight: 400;
+  color: rgba(98, 119, 140, 1);
+  line-height: 20px;
+}
+
+.main-footer .icons {
+  margin-top: 25px;
+  height: 24px;
+}
+
+.main-footer .icons .icon {
+  display: inline-block;
+  height: 24px;
+  width: 24px;
+  margin-right: 20px;
+}
+
+.main-footer .icons .icon-1 {
+  background: url(../img/杭州公安@2x.png) no-repeat center center;
+  background-size: cover;
+}
+
+.main-footer .icons .icon-2 {
+  background: url(../img/工商监管@2x.png) no-repeat center center;
+  background-size: cover;
+}
+
+.main-footer .icons .icon-3 {
+  background: url(../img/信用评级@2x.png) no-repeat center center;
+  background-size: cover;
+}
+
+.main-footer .footer-logo {
+  background: url(../img/logo.svg) no-repeat center center;
+  background-size: 100% auto;
+  margin: 24px 0;
+  height: 28px;
+  width: 105px;
+}
+
+.main-footer .gzh {
+  width: 116px;
+  height: 144px;
+  background: rgba(255, 255, 255, 1);
+  border-radius: 2px;
+  margin: 28px auto 24px;
+  padding: 8px 8px 10px 8px;
+}
+
+.main-footer .gzh .ewm {
+  width: 100px;
+  height: 100px;
+  background: url(../img/二维码@2x.png) no-repeat center center;
+  background-size: cover;
+}
+
+.main-footer .gzh .tip {
+  width: 91px;
+  height: 18px;
+  font-size: 12px;
+  font-family: PingFangSC-Regular;
+  font-weight: 400;
+  color: rgba(98, 119, 140, 1);
+  line-height: 18px;
+  letter-spacing: 1px;
+  margin: 8px auto 10px;
 }
 
 @media screen and (max-width: 728px) {
@@ -384,6 +456,12 @@ body {
   }
   .main-com.sum {
     background-size: 100% 100%;
+  }
+  .main-footer {
+    text-align: center;
+  }
+  .main-footer .footer-logo{
+    margin: 24px auto;
   }
 }
 
