@@ -52,9 +52,9 @@
         $dom.$tabForm.hide()
         $dom.$tabResult.show()
         var ajaxOption = {
-          url: '',
+          url: './api/tryout',
           data: { name: $dom.$name.val(), phone: $dom.$phone.val() },
-          method: 'post'
+          method: 'GET'
         }
         $.ajax(ajaxOption)
       }

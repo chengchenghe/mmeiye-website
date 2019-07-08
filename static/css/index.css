@@ -64,7 +64,6 @@ body {
 .logo::after {
   content: '美业收银';
   font-size: 14px;
-  font-family: PingFangSC-Regular;
   font-weight: 400;
   color: rgba(40, 51, 75, 1);
   position: relative;
@@ -83,7 +82,6 @@ body {
   max-width: 513px;
   /* height: 108px; */
   font-size: 36px;
-  font-family: PingFangSC-Medium;
   font-weight: 500;
   color: rgba(255, 255, 255, 1);
   line-height: 54px;
@@ -94,7 +92,6 @@ body {
   width: 307px;
   height: 24px;
   font-size: 16px;
-  font-family: PingFangSC-Regular;
   font-weight: 400;
   color: rgba(255, 255, 255, 1);
   line-height: 24px;
@@ -115,7 +112,6 @@ body {
   width: 135px;
   height: 18px;
   font-size: 12px;
-  font-family: PingFangSC-Regular;
   font-weight: 400;
   color: rgba(255, 255, 255, 1);
   line-height: 18px;
@@ -125,7 +121,6 @@ body {
 .main-server .title {
   height: 48px;
   font-size: 32px;
-  font-family: PingFangSC-Regular;
   font-weight: 400;
   color: rgba(40, 51, 75, 1);
   line-height: 48px;
@@ -166,7 +161,6 @@ body {
   height: 30px;
   left: 0;
   bottom: 24px;
-  font-family: PingFangSC-Regular;
   font-size: 20px;
 }
 
@@ -227,7 +221,6 @@ body {
 .main-com .title {
   height: 48px;
   font-size: 32px;
-  font-family: PingFangSC-Regular;
   font-weight: 400;
   color: rgba(33, 139, 252, 1);
   line-height: 48px;
@@ -237,7 +230,6 @@ body {
 
 .main-com .tip {
   font-size: 14px;
-  font-family: PingFangSC-Regular;
   font-weight: 400;
   color: rgba(40, 51, 75, 1);
   text-align: center;
@@ -282,7 +274,6 @@ body {
   margin: 0 auto;
   background: rgba(59, 153, 252, 1)!important;
   font-size: 16px;
-  font-family: PingFangSC-Regular;
   font-weight: 400;
   color: rgba(255, 255, 255, 1);
   border: none!important;
@@ -313,7 +304,6 @@ body {
   text-align: center;
   height: 48px;
   font-size: 32px;
-  font-family: PingFangSC-Regular;
   font-weight: 400;
   color: rgba(40, 51, 75, 1);
   line-height: 48px;
@@ -338,7 +328,6 @@ body {
 .success-icon .tip {
   text-align: center;
   font-size: 18px;
-  font-family: PingFangSC-Regular;
   font-weight: 400;
   color: rgba(40, 51, 75, 1);
   line-height: 26px;
@@ -362,7 +351,6 @@ body {
 
 #jg .title {
   font-size: 32px;
-  font-family: PingFangSC-Regular;
   font-weight: 400;
   color: rgba(40, 51, 75, 1);
   line-height: 48px;
@@ -446,7 +434,6 @@ body {
   background: rgba(255, 255, 255, 1);
   border-radius: 16px;
   font-size: 14px;
-  font-family: PingFangSC-Regular;
   font-weight: 400;
   color: rgba(33, 139, 252, 1);
   line-height: 20px;
@@ -457,7 +444,6 @@ body {
 #jg .item .type {
   height: 26px;
   font-size: 18px;
-  font-family: PingFangSC-Regular;
   font-weight: 400;
   color: rgba(255, 255, 255, 1);
   line-height: 26px;
@@ -467,7 +453,6 @@ body {
 #jg .item .price {
   height: 54px;
   font-size: 36px;
-  font-family: PingFangSC-Medium;
   font-weight: 500;
   color: rgba(255, 255, 255, 1);
   line-height: 54px;
@@ -477,7 +462,6 @@ body {
 #jg .item .price::after {
   content: '元/年';
   font-size: 14px;
-  font-family: PingFangSC-Regular;
   font-weight: 400;
   color: rgba(255, 255, 255, 1);
   line-height: 20px;
@@ -492,7 +476,6 @@ body {
 .main-footer .tip {
   height: 20px;
   font-size: 14px;
-  font-family: PingFangSC-Regular;
   font-weight: 400;
   color: rgba(98, 119, 140, 1);
   line-height: 20px;
@@ -558,7 +541,6 @@ body {
   width: 91px;
   height: 18px;
   font-size: 12px;
-  font-family: PingFangSC-Regular;
   font-weight: 400;
   color: rgba(98, 119, 140, 1);
   line-height: 18px;
