@@ -171,22 +171,22 @@ body {
 }
 
 .main-server .imgdes:nth-last-child(4)::before {
-  background: url(../img/养发护发.svg) no-repeat center center;
+  background: url(../img/mfhf.svg) no-repeat center center;
   background-size: cover;
 }
 
 .main-server .imgdes:nth-last-child(3)::before {
-  background: url(../img/美甲美睫.svg) no-repeat center center;
+  background: url(../img/mjmj.svg) no-repeat center center;
   background-size: cover;
 }
 
 .main-server .imgdes:nth-last-child(2)::before {
-  background: url(../img/美容美体.svg) no-repeat center center;
+  background: url(../img/mrmt.svg) no-repeat center center;
   background-size: cover;
 }
 
 .main-server .imgdes:last-child::before {
-  background: url(../img/养身保健.svg) no-repeat center center;
+  background: url(../img/ysbj.svg) no-repeat center center;
   background-size: cover;
 }
 
@@ -214,7 +214,7 @@ body {
 }
 
 .main-com.sum {
-  background-image: url(../img/飘带.svg);
+  background-image: url(../img/pd.svg);
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center calc(100% + 119px);
@@ -325,7 +325,7 @@ body {
 }
 
 .success-icon {
-  background: url(../img/提交成功.svg) no-repeat center center;
+  background: url(../img/tjcg.svg) no-repeat center center;
   background-size: cover;
   height: 100px;
   width: 100px;
@@ -378,6 +378,7 @@ body {
   text-align: center;
   border-radius: 4px;
   margin-top: 32px;
+  position: relative;
 }
 
 #jg .item.item1 {
@@ -390,6 +391,48 @@ body {
 
 #jg .item.item3 {
   background: rgba(199, 40, 146, 1);
+}
+
+#jg .item.item1 .type::after {
+  content: '';
+  background: url(../img/webpcb.svg) no-repeat center center;
+  background-size: cover;
+  width: 62px;
+  height: 80px;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+#jg .item.item2 .type::after {
+  content: '';
+  background: url(../img/icxb.svg) no-repeat center center;
+  background-size: cover;
+  width: 50px;
+  height: 80px;
+  position: absolute;
+  right: 14px;
+  bottom: 0;
+}
+
+#jg .item.item3 .type::before {
+  content: '';
+  background: url(../img/zhb1.svg) no-repeat center center;
+  background-size: cover;
+  width: 50px;
+  height: 80px;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+#jg .item.item3 .type::after {
+  content: '';
+  background: url(../img/zhb2.svg) no-repeat center center;
+  background-size: cover;
+  width: 50px;
+  height: 56px;
+  position: absolute;
+  right: 20px;
+  bottom: 0;
 }
 
 #jg .item p,
@@ -468,17 +511,17 @@ body {
 }
 
 .main-footer .icons .icon-1 {
-  background: url(../img/杭州公安@2x.png) no-repeat center center;
+  background: url(../img/hzga@2x.png) no-repeat center center;
   background-size: cover;
 }
 
 .main-footer .icons .icon-2 {
-  background: url(../img/工商监管@2x.png) no-repeat center center;
+  background: url(../img/gsjg@2x.png) no-repeat center center;
   background-size: cover;
 }
 
 .main-footer .icons .icon-3 {
-  background: url(../img/信用评级@2x.png) no-repeat center center;
+  background: url(../img/xypj@2x.png) no-repeat center center;
   background-size: cover;
 }
 
@@ -502,7 +545,7 @@ body {
 .main-footer .gzh .ewm {
   width: 100px;
   height: 100px;
-  background: url(../img/二维码@2x.png) no-repeat center center;
+  background: url(../img/ewm@2x.png) no-repeat center center;
   background-size: cover;
 }
 
@@ -531,10 +574,10 @@ body {
   .logo {
     margin-left: 15px!important;
   }
-  .shuxian{
+  .shuxian {
     margin-left: 127px;
   }
-  .logo::after{
+  .logo::after {
     left: 110px;
   }
   .nav>li>a {
