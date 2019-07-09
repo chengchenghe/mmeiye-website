@@ -17,6 +17,28 @@ body {
   border: none;
 }
 
+.m-toptry {
+  height: 60px;
+  line-height: 40px;
+}
+
+.navbar-default .navbar-nav>li>a {
+  color: #28334B;
+}
+
+.navbar-nav>li>a {
+  padding: 20px 18px;
+}
+
+.navbar-nav>li:last-child {
+  padding-left: 18px;
+}
+
+.navbar-default .navbar-nav>li>a:focus,
+.navbar-default .navbar-nav>li>a:hover {
+  color: #218BFC;
+}
+
 .phone::before {
   content: ' ';
   background: url(../img/telephone.svg) no-repeat;
@@ -24,7 +46,8 @@ body {
   height: 16px;
   width: 16px;
   position: absolute;
-  left: -2px;
+  left: 0px;
+  top: 22px;
 }
 
 .navbar-right {
@@ -32,8 +55,8 @@ body {
 }
 
 .toptry {
-  width: 88px;
-  background: rgba(59, 153, 252, 1)!important;
+  min-width: 88px;
+  /* background: rgba(59, 153, 252, 1)!important; */
   color: #fff;
   height: 50px;
   line-height: 50px;
@@ -49,6 +72,7 @@ body {
   margin-left: 0px!important;
   display: inline-block;
   width: 100px;
+  height: 60px;
   background: url(../img/logo.svg) no-repeat center center;
   background-size: 100% auto;
 }
@@ -57,7 +81,7 @@ body {
   width: 1px;
   height: 14px;
   background: rgba(40, 51, 75, 1);
-  margin-top: 19px;
+  margin-top: 24px;
   margin-left: 112px;
 }
 
@@ -68,6 +92,7 @@ body {
   color: rgba(40, 51, 75, 1);
   position: relative;
   left: 110px;
+  top: 5px;
 }
 
 .main-bgimg {
@@ -75,7 +100,7 @@ body {
   background: url(../img/homebanner@2x.jpg) no-repeat center center;
   background-size: cover;
   color: #ffffff;
-  height: 410px;
+  height: 400px;
 }
 
 .main-bgimg h2 {
@@ -86,6 +111,8 @@ body {
   color: rgba(255, 255, 255, 1);
   line-height: 54px;
   user-select: none;
+  margin-top: 26px;
+  margin-bottom: 16px;
 }
 
 .main-bgimg .subtxt {
@@ -96,6 +123,7 @@ body {
   color: rgba(255, 255, 255, 1);
   line-height: 24px;
   user-select: none;
+  margin-bottom: 24px;
 }
 
 .main-bgimg .trybtn {
@@ -106,6 +134,7 @@ body {
   border-radius: 24px;
   outline: none!important;
   border: none!important;
+  margin-bottom: 8px;
 }
 
 .main-bgimg .count {
@@ -130,6 +159,7 @@ body {
 
 .main-server p {
   text-align: center;
+  margin-bottom: 32px;
 }
 
 .main-server img {
@@ -140,6 +170,8 @@ body {
 
 .main-server {
   background-color: #fff;
+  padding-top: 48px;
+  padding-bottom: 24px;
 }
 
 .main-server .imgdes::before {
@@ -246,17 +278,25 @@ body {
 .lxwm {
   padding: 0;
 }
-
+.lxwm .imgbox{
+  display: flex;
+  display: -webkit-flex;
+  align-items: center;
+  justify-content: center;
+}
 .lxwm img {
   width: 100%;
   margin: 0;
 }
-
 .lxwm .form {
   /* width: 361px;
   height: 276px; */
-  margin: 28px auto 0;
+  margin: auto auto;
   height: 276px;
+  display: flex;
+  display: -webkit-flex;
+  align-items: center;
+  justify-content: center;
 }
 
 #form input {
@@ -340,13 +380,9 @@ body {
 }
 
 .toptry {
-  height: 50px;
-  line-height: 50px;
+  /* height: 50px; */
+  /* line-height: 50px; */
   text-align: center;
-}
-
-#jg {
-  padding-bottom: 48px;
 }
 
 #jg .title {
@@ -391,6 +427,7 @@ body {
   right: 0;
   bottom: 0;
 }
+
 #jg .item.item2 .type::after {
   content: '';
   background: url(../img/icxb.svg) no-repeat center center;
@@ -412,6 +449,7 @@ body {
   right: 0;
   bottom: 0;
 }
+
 #jg .item.item3 .type::after {
   content: '';
   background: url(../img/zhb2.svg) no-repeat center center;
@@ -460,7 +498,7 @@ body {
 }
 
 #jg .item .price::after {
-  content: '元/年';
+  content: ' 元/年';
   font-size: 14px;
   font-weight: 400;
   color: rgba(255, 255, 255, 1);
@@ -562,11 +600,25 @@ body {
   .logo::after {
     left: 110px;
   }
-  .nav>li>a {
+  /* .nav>li>a {
     padding: 0;
-  }
+  } */
   .main-footer .icons .icon-1 {
     margin-left: 20px;
+  }
+  .main-server img {
+    max-height: 140px;
+    max-width: 140px;
+  }
+  .main-server .imgdes::before {
+    top: 28px;
+    width: 52px;
+    height: 52px;
+    left: calc(50% - 26px);
+  }
+  .main-server .imgdes::after {
+    bottom: 14px;
+    font-size: 16px;
   }
   .main-com img {
     width: 100%;
@@ -580,6 +632,12 @@ body {
   }
   .main-footer .footer-logo {
     margin: 24px auto;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .main-server .imgdes::before {
+    top: 16px;
   }
 }
 
