@@ -278,16 +278,19 @@ body {
 .lxwm {
   padding: 0;
 }
-.lxwm .imgbox{
+
+.lxwm .imgbox {
   display: flex;
   display: -webkit-flex;
   align-items: center;
   justify-content: center;
 }
+
 .lxwm img {
   width: 100%;
   margin: 0;
 }
+
 .lxwm .form {
   /* width: 361px;
   height: 276px; */
@@ -576,7 +579,8 @@ body {
 }
 
 .main-footer .gzh .tip {
-  width: 91px;
+  text-align: center;
+  width: 100px;
   height: 18px;
   font-size: 12px;
   font-weight: 400;
