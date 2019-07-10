@@ -323,7 +323,7 @@ body {
   outline: none!important;
 }
 
-#form .btn-primary:hover {
+.trybtn:hover,.toptry>a:hover,#form .btn-primary:hover {
   background: rgba(83, 166, 252, 1)!important;
 }
 

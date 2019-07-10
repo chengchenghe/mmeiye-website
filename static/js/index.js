@@ -12,7 +12,7 @@
     var resetH = function () {
       var imgH = $('.lxwm img').eq(0).height()
       if (imgH < 300) {
-        var c = Number((300 - imgH) / 2) - 6;
+        var c = (300 - imgH);
         $('.lxwm img').eq(0).css('margin-top', c)
       } else {
         $('.lxwm img').eq(0).css('margin-top', 0)
