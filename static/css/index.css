@@ -5,6 +5,10 @@ body {
   padding-top: 25px;
 }
 
+a {
+  text-decoration: none!important;
+}
+
 .jumbotron {
   margin-bottom: 0;
 }
@@ -323,7 +327,9 @@ body {
   outline: none!important;
 }
 
-.trybtn:hover,.toptry>a:hover,#form .btn-primary:hover {
+.trybtn:hover,
+.toptry>a:hover,
+#form .btn-primary:hover {
   background: rgba(83, 166, 252, 1)!important;
 }
 
@@ -643,7 +649,7 @@ body {
   .main-server .imgdes::before {
     top: 16px;
   }
-  .lxwm .form .title{
+  .lxwm .form .title {
     font-size: 28px;
   }
 }
