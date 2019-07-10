@@ -643,6 +643,9 @@ body {
   .main-server .imgdes::before {
     top: 16px;
   }
+  .lxwm .form .title{
+    font-size: 28px;
+  }
 }
 
 @media (min-width:1200px) {
