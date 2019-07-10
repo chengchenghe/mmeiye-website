@@ -11,7 +11,7 @@
     // 初始化输入框居中
     var resetH = function () {
       var imgH = $('.lxwm img').eq(0).height()
-      if (imgH < 300) {
+      if (imgH < 300 && imgH != 0) {
         var c = (300 - imgH);
         $('.lxwm img').eq(0).css('margin-top', c)
       } else {
